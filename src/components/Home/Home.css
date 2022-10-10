@@ -1,5 +1,23 @@
 .home-container img{
-    width: 100%;
+    width: 99%;
     height: 699px;
-    
+    position: relative;
+}
+.home-texts{
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    color: white;
+}
+.home-text-header{
+    font-size: 5rem;
+}
+.home-text-details{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.home-text-details a{
+
+  color:rgba(5, 41, 107, 0.801);
+  font-weight: 900;    
 }
