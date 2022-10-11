@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import Quizes from './components/Quizes/Quizes';
 import Main from './layouts/Main';
-import Question from './components/Question/Question';
+import Questions from './components/Questions/Questions';
 
 function App() {
 
@@ -38,7 +38,7 @@ function App() {
           {
             return fetch(`https://openapi.programming-hero.com/api/quiz/${params.questionId}`)
           },
-          element:<Question></Question>,
+          element:<Questions></Questions>,
         }
       ]
     }

@@ -4,6 +4,7 @@ import Quiz from '../Quiz/Quiz';
 import './Quizes.css'
 
 const Quizes = () => {
+
     const loader = useLoaderData();
     const { data } = loader;
 
@@ -12,7 +13,7 @@ const Quizes = () => {
             <div className='grid-container'>
                     {
                         data.map(quiz => <Quiz data={quiz}
-                        key={data.id}
+                        key={quiz.id}
                         ></Quiz>)
                     }
             </div>

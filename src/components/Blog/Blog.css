@@ -1,0 +1,15 @@
+.q-a{
+    
+    margin: 0 20px;
+    margin-top: 40px;
+    border: 2px solid rgb(166, 255, 0);
+    border-radius: 10px;
+    background-color: rgb(166, 255, 0, 0.3);
+    padding: 0 10px;
+}
+.q-a h3,p{
+    font-weight: 700;
+}
+.q-a:hover{
+    box-shadow: 5px 10px 10px 5px rgb(166, 255, 0, 0.8);
+}

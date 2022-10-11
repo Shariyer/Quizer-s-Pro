@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import './Quiz.css'
 
 const Quiz = ({ data }) => {
-    console.log(data)
-    
 
     return (
         <div className='quizes-container'>
