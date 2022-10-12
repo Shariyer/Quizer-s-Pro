@@ -1,7 +1,4 @@
-.quizes-container{
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-}
+
 .quiz-container {
 
     width: 350px;
@@ -39,4 +36,30 @@
 }
 .start-btn:hover{
   box-shadow: 2px 2px 2px 2px white;
+}
+
+@media only screen and (max-width: 600px) {
+    .quizes-container{
+        width: 50%;
+    }
+
+    .quiz-container {
+            margin: 0px 20px;
+            width: 250px;
+            height: auto;
+            margin-top: 50px;
+            padding: 20px;
+            border: 2px solid rgb(166, 255, 0);
+            background-color: rgb(166, 255, 0, 0.3);
+            border-radius: 10px;
+            box-shadow: 5px 10px 10px 5px rgb(166, 255, 0, 0.8);
+        }
+    .quizes-details {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+  
+    }
 }

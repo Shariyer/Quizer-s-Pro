@@ -9,3 +9,18 @@
 }
 
 /* mobile responsive*/
+@media only screen and (max-width: 600px) {
+ body{
+    width: 100%;
+ }
+.grid-container {
+        width: auto;
+        margin: 0px 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        
+        margin-bottom: 40px;
+    }
+
+}

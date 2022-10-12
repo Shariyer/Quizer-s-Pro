@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css'
 import { PuzzlePieceIcon } from '@heroicons/react/24/solid'
+import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
@@ -12,10 +12,11 @@ const Header = () => {
                 
             </div>
             <div className='nav-links'>
-                <Link to={'/'}>Home</Link>
-                <Link to={'/quizes'}>Quizes</Link>
-                <Link to={'/statistics'}>Statistics</Link>
-                <Link to={'/blog'}>Blog</Link>
+                <NavLink className={({isActive})=> isActive ? 'active':undefined} to={'/'}>Home</NavLink>
+                <NavLink  to={'/quizes'}>Quizes</NavLink>
+                <NavLink  to={'/statistics'}>Statistics</NavLink>
+                <NavLink  to={'/blog'}>Blog</NavLink>
+                
             </div>
         </nav>
     );

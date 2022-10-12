@@ -6,11 +6,15 @@ import './Questions.css'
 const Question = () => {
     const loadedQuestions = useLoaderData()
     
-    // console.log(loadedQuestions)
+    console.log(loadedQuestions)
     return (
         <div>
+            
             {
-              loadedQuestions.data.questions.map(question=><SingleQuestion question={question} key={question.id}></SingleQuestion>)  
+                loadedQuestions.data.questions.map(question => <SingleQuestion
+                    question={question}
+                    key={question.id}
+                ></SingleQuestion>)  
             }
         </div>
     );

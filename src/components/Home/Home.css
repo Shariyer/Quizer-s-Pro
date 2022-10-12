@@ -21,3 +21,27 @@
   color:rgb(75, 228, 4);
   font-weight: 900;    
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+       width:  100%;
+    }
+    .home-text-header {
+            font-size: 2rem;
+    }
+    .home-text-details {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .home-container img {
+        width: 99%;
+        height: 100%;
+        position: relative;
+    }
+    .home-texts {
+        position: absolute;
+        top: 150px;
+        bottom: 10px;
+        color: white;
+    }
+}
