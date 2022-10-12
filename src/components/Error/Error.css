@@ -1,0 +1,9 @@
+.Error-container{
+  margin-top: 60px;
+}
+.error-header{
+   color: red;
+}
+.error-details{
+    color: green;
+}
