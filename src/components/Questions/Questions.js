@@ -6,7 +6,7 @@ import './Questions.css'
 const Question = () => {
     const loadedQuestions = useLoaderData()
     
-    console.log(loadedQuestions)
+    
     return (
         <div>
             

@@ -24,7 +24,7 @@ const SingleQuestion = ({question}) => {
             </div>
             <div>
                 {
-                    question.options.map(option=><Option option={option} question={question} ></Option>)
+                    question.options.map(option=><Option option={option} question={question}  ></Option>)
                 }
             </div>
         </div>
