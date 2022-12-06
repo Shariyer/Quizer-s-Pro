@@ -1,8 +1,8 @@
 #Page live link :https://b6-quiz-crackerz-shariyer.netlify.app/
 
-#Assignment-9
 
-#Name: Quizer'S Pro (b6-quiz-crackerz-Shariyer)
+
+#Name: Quizer'S Pro 
 
 #Spcial Feature
 
